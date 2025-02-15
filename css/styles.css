@@ -1,0 +1,46 @@
+:root {
+    /* Colors */
+    --slate: #434455;
+    --navy-blue: #2e2f42;
+    --cornflower: #e7e9fc;
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --white: #fff;
+    --cloud: #f4f4fd;
+
+}
+
+body {
+    font-family: "Roboto",
+        sans-serif;
+    font-style: normal; 
+    color: var(--slate);
+    background-color: var(--white);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* #region Header */
+.logo {
+    font-family: "Raleway", sans-serif; 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-studio {
+    color: var(--navy-blue);
+}
+
+.header-nav {}
+
+/* #endregion */
