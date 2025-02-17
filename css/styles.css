@@ -18,11 +18,11 @@ body {
     background-color: var(--white);
 }
 
-a {
+.link {
     text-decoration: none;
 }
 
-ul {
+.list {
     list-style-type: none;
 }
 
@@ -41,6 +41,142 @@ ul {
     color: var(--navy-blue);
 }
 
-.header-nav {}
+.text-link {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+}
 
+.text-link:hover,
+.text-link:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
+.contact-box {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+/* #endregion */
+
+/* #region Hero */
+.title-box {
+    background: var(--navy-blue);
+}
+
+.main-title {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07143;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #ffffff;
+}
+
+.main-button {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.main-button:hover,
+.main-button:focus {
+    background-color: #404bbf;
+    cursor: pointer;
+}
+
+/* #endregion */
+
+/* #region Goals */
+.goals-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.goals-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+/* #endregion */
+
+/* #region Our Team */
+
+.main-section-team {
+    background-color: var(--cloud);
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--navy-blue);
+}
+
+.team-member-card {
+    background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+}
+
+.card-name {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--slate)
+}
+/* #endregion */
+
+/* #region Our Portfolio */
+.portfolio-card {
+    background-color: #8E8F99;
+    border: 1px solid #e7e9fc;
+    width: 360px;
+    height: 420px;
+}
+/* #endregion */
+
+/* #region Footer */
+.logo-studio-footer {
+    color: var(--cloud);
+}
+
+.footer-box {
+    background: var(--navy-blue);
+}
+
+.paragraf-box {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+}
 /* #endregion */
