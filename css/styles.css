@@ -30,7 +30,7 @@ body {
     font-family: "Raleway", sans-serif; 
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -125,6 +125,10 @@ body {
     background-color: var(--cloud);
 }
 
+.team-member-card {
+    background-color: #ffffff;
+}
+
 .team-title {
     font-size: 36px;
     line-height: 1.11;
@@ -135,11 +139,8 @@ body {
     color: var(--navy-blue);
 }
 
-.team-member-card {
-    background-color: #ffffff;
-}
-
 .card-name {
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
