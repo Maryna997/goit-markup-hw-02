@@ -11,8 +11,7 @@
 }
 
 body {
-    font-family: "Roboto",
-        sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal; 
     color: var(--slate);
     background-color: var(--white);
@@ -43,10 +42,10 @@ body {
 
 .text-link {
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--navy-blue);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
 }
 
 .text-link:hover,
@@ -54,7 +53,7 @@ body {
     color: #404bbf;
 }
 
-.address {
+.contacts {
     font-style: normal;
 }
 
@@ -63,6 +62,11 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
+}
+
+.contact-box:hover,
+.contact-box:focus {
+    color: var(--ocean);
 }
 /* #endregion */
 
@@ -73,16 +77,16 @@ body {
 
 .main-title {
     font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07143;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #ffffff;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
 }
 
 .main-button {
     background-color: #4d5ae5;
-    font-family: "Roboto", sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -133,10 +137,6 @@ body {
 
 .team-member-card {
     background-color: #ffffff;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
 }
 
 .card-name {
@@ -159,9 +159,6 @@ body {
 /* #region Our Portfolio */
 .portfolio-card {
     background-color: #8E8F99;
-    border: 1px solid #e7e9fc;
-    width: 360px;
-    height: 420px;
 }
 /* #endregion */
 
